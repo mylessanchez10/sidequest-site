@@ -1,0 +1,103 @@
+/* Shared styles for both pages */
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f2ece1;
+  color: #2b2620;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2f4a3a;
+  color: #f2ece1;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+h1 {
+  margin: 8px 0 4px;
+  font-size: 2.2rem;
+}
+
+.tagline {
+  margin: 0 0 16px;
+}
+
+nav a {
+  color: #f2ece1;
+  background-color: #8a5a34;
+  padding: 8px 16px;
+  margin: 0 6px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #a8703f;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  color: #2f4a3a;
+  border-bottom: 2px solid #8a5a34;
+  padding-bottom: 4px;
+}
+
+.quick-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.quick-info > div {
+  flex: 1 1 280px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid #d6cbb8;
+}
+
+th {
+  background-color: #e3d8c4;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.note {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #2f4a3a;
+  color: #f2ece1;
+  font-size: 0.9rem;
+}
